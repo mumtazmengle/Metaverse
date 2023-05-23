@@ -128,7 +128,7 @@ img {
 	width: 100%;
 }
 #body.home div.header {
-	background-color: #f8f8f8;
+	background-color: #326c9c8e;
 	margin: 0;
 	max-width: none;
 	overflow: hidden;
@@ -139,14 +139,14 @@ img {
 	display: block;
 	margin: 0 ;
 	padding: 0;
-	position: absolute;
+	position:absolute;
 	width: 100%;
 	
 }
 #body.home div.header div {
 	margin: 0 auto;
 	max-width: 322px;
-	min-height: 300px;
+	min-height: 250px;
 	padding: 0;
 	position: relative;
 }
@@ -177,25 +177,13 @@ img {
 	max-width: 960px;
 	overflow: hidden;
 	padding: 0;
+align-items: center;	
 }
-#body.home div.body div a {
-	background: url(../images/icons.png) no-repeat 0 -128px;
-	color: #FFFFFF;
-	display: block;
-	font-family: quicksand-bold-webfont;
-	font-size: 24px;
-	font-weight: normal;
-	height: 99px;
-	line-height: 24px;
-	margin: 0;
-	padding: 52px 0 0;
-	position: absolute;
-	right: 280px;
-	text-align: center;
-	text-transform: uppercase;
-	top: 420px;
-	width: 156px;
-	z-index: 90;	
+#body.home div.body div button{
+width: 200px;
+height: 30px;
+border-radius: 10px;
+background-color: #156e85;
 }
 
 #body.home div.body div div {
@@ -210,7 +198,7 @@ img {
 	left: 0;
 	margin: 0;
 	padding: 0;
-	position: relative;
+	position: absolute;
 	width: auto;
 }
 #body.home div.body div div h1 {
@@ -227,7 +215,7 @@ img {
 	width: 560px;
 }
 #body.home div.body div div h2 {
-	color: #E32A62;
+	color: #109cb4b2;
 	display: block;
 	font-family: magra-bold-webfont;
 	font-size: 30px;
@@ -266,7 +254,7 @@ img {
 	color: #c8c10d;
 }
 #body.home div.footer {
-	background-color: #c8c10d;
+	background-color: #3b1063;
 	margin: 0;
 	max-width: none;
 	padding: 0;
@@ -331,7 +319,7 @@ img {
 	width: 100%;
 }
 #body div.header {
-	background-color: #c8c10d;
+	background-color: #1b8cce3f;
 	margin: 0 auto;
 	max-width: none;
 	overflow: hidden;
@@ -354,7 +342,7 @@ img {
 	text-transform: uppercase;
 }
 #body div.body {
-	background-color: #ebebed;
+	background-color: #0e0ee6;
 	margin: 0;
 	max-width: none;
 	min-height: 249px;
@@ -364,11 +352,12 @@ img {
 }
 #body div.body img {
 	display: block;
-	left: 50%;
-	margin: 0 auto 0 -507px;
+	
+	margin: 0 auto 0 0px;
 	padding: 0;
 	position: absolute;
-	width: 1014px;
+	height: 10px;
+
 }
 #body div.footer {
 	margin: 0 auto;
@@ -441,7 +430,7 @@ img {
 	text-decoration: underline;
 }
 #body div.footer div p a:hover, #body div ul li p a:hover, #body div.blog .featured ul li div p a:hover, #body div.blog .sidebar p a:hover, #body div.blog .featured p a:hover, #body.contact div.body div div p a:hover {
-	color: #c8c10d;
+	color: #156e85;
 }
 #body div {
 	margin: 0 auto;
